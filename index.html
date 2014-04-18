@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>uys.io</title>
+<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 <style>
 body {
   color:#444;
@@ -11,6 +12,7 @@ body {
 }
 #x, #y{
   font-weight: bold;
+  font-size: 2em;
   text-transform:uppercase;
 }
 #x p, #y p {
@@ -20,31 +22,29 @@ body {
 #x p:first-letter {
   color:#02eaff;
 }
-#y p:first-letter {
-  color: #ff1702;
+#x img {
+  padding: 40px;
 }
 #y {
-  float:right;
+  color: #aaa;
 }
 </style>
 
 </head>
 <body>
 
+  <center>
   <div id="x">
+    <img src="512.png">
     <p>Unleash</p>
     <p>Your</p>
     <p>Server</p>
   </div>
   <div id="y">
-    <p>Coming 2014</p>
+    <p>ETA 2014</p>
   </div>
+</center>
 
-<script type="text/javascript">
-  var h = (window.innerHeight * 0.7) / 3;
-  document.getElementById('x').style.fontSize = h+'px';
-  document.getElementById('y').style.fontSize = (h/3)+'px';
-</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
